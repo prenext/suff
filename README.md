@@ -1,10 +1,10 @@
-# api-js
+# epicjs
 
-Welcome to `api-js` – a powerful and flexible framework designed to streamline the creation of REST APIs with Node.js and Express. Whether you’re a beginner looking for a quick setup or an experienced developer seeking a customizable solution, `api-js` simplifies the process of building and configuring your APIs.
+Welcome to `epicjs` – a powerful and flexible framework designed to streamline the creation of REST APIs with Node.js and Express. Whether you’re a beginner looking for a quick setup or an experienced developer seeking a customizable solution, `epicjs` simplifies the process of building and configuring your APIs.
 
 ## Overview
 
-`api-js` automates the setup of common backend components, so you can focus on developing your application instead of spending time on boilerplate code and configuration. With `api-js`, you can choose your preferred language (TypeScript or JavaScript) and database (Mongoose or Prisma) during installation. The framework also provides a well-structured folder layout and integrates useful tools like `dotenv` for environment management and logging capabilities.
+`epicjs` automates the setup of common backend components, so you can focus on developing your application instead of spending time on boilerplate code and configuration. With `epicjs`, you can choose your preferred language (TypeScript or JavaScript) and database (Mongoose or Prisma) during installation. The framework also provides a well-structured folder layout and integrates useful tools like `dotenv` for environment management and logging capabilities.
 
 ## Features
 
@@ -16,11 +16,11 @@ Welcome to `api-js` – a powerful and flexible framework designed to streamline
 
 ## Project Structure
 
-When you set up your project with `api-js`, the following folder structure will be created:
+When you set up your project with `epicjs`, the following folder structure will be created:
 
 ```
 my-api-project/
-├── config/          # Configuration files (e.g., environment settings) 
+├── config/          # Configuration files (e.g., environment settings)
 ├── models/          # Database models
 ├── routes/          # API routes
 ├── utils/           # Utility functions and helpers
@@ -31,38 +31,69 @@ my-api-project/
 └── README.md        # Project documentation
 ```
 
-## Getting Started
+## Installation and Usage
 
-To get started with `api-js`, follow these steps:
+To get started with `epicjs`, follow these steps:
 
 1. **Install the Framework:**
+
+   Use `npx` to run the installation command:
+
    ```bash
-   npx create-api-js my-api-project
+   npx create-epicjs-server
    ```
-   You’ll be prompted to select your preferred language and database.
+
+   You'll be prompted to select your preferred language and database.
 
 2. **Navigate to Your Project Directory:**
+
    ```bash
    cd my-api-project
    ```
 
 3. **Start the Development Server:**
+
+   Run the development server with:
+
    ```bash
    npm run dev
    ```
 
 4. **Configure Your Environment:**
-   Edit the `.env` file to set up your environment variables and database connection settings.
+
+   Edit the `.env` file to set up your environment variables and database connection settings. Make sure to specify the `NODE_ENV` variable:
+
+   ```env
+   NODE_ENV=development
+   ```
 
 5. **Develop Your API:**
+
    - Define your routes in the `routes` folder.
    - Implement your business logic in the `controllers` folder.
    - Define your data models in the `models` folder.
    - Use utilities from the `utils` folder as needed.
 
+## Configuration
+
+- **Environment Configuration:**
+  
+  `epicjs` uses environment variables specified in the `.env` file. The `NODE_ENV` variable determines if the application is running in development mode or production mode, affecting the setup of routes and other configurations.
+
+- **Commands:**
+
+  The framework provides several commands to interact with your project:
+  
+  - **`create-epicjs-server`**: Initializes a new `epicjs` project.
+  - **`epicjs`**: CLI tool with various commands:
+    - `dev`: Starts the development server with `nodemon` for auto-reloading.
+    - `build`: Builds the project for production.
+    - `start`: Starts the project in production mode.
+    - `test`: Runs tests for your project.
+
 ## Contributing
 
-We welcome contributions from the community! If you’d like to help improve `api-js`, please follow these guidelines:
+We welcome contributions from the community! If you’d like to help improve `epicjs`, please follow these guidelines:
 
 - **Fork the Repository:** Create your own copy of the repository.
 - **Clone Your Fork:** Clone your fork to your local machine.
@@ -73,8 +104,8 @@ We welcome contributions from the community! If you’d like to help improve `ap
 
 ## License
 
-`api-js` is open source and available under the [MIT License](LICENSE).
+`epicjs` is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or feedback, please contact us at [email@example.com].
+For any questions or feedback, please contact us at [mail@prenext.com].
