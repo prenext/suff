@@ -62,10 +62,10 @@ inquirer.prompt(questions).then((answers) => {
       const packageJson = fs.readJsonSync(packageJsonPath);
       packageJson.scripts = {
         ...packageJson.scripts,
-        build: 'epicjs build',
-        start: 'epicjs start',
-        dev: 'epicjs dev',
-        test: 'epicjs test',
+        build: 'suff build',
+        start: 'suff start',
+        dev: 'suff dev',
+        test: 'suff test',
       };
       fs.writeJsonSync(packageJsonPath, packageJson, { spaces: 2 });
       spinner.succeed('Custom scripts added!');

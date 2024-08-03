@@ -1,10 +1,10 @@
-# epicjs
+# suff
 
-Welcome to `epicjs` – a powerful and flexible framework designed to streamline the creation of REST APIs with Node.js and Express. Whether you’re a beginner looking for a quick setup or an experienced developer seeking a customizable solution, `epicjs` simplifies the process of building and configuring your APIs.
+Welcome to `suff` – a powerful and flexible framework designed to streamline the creation of REST APIs with Node.js and Express. Whether you’re a beginner looking for a quick setup or an experienced developer seeking a customizable solution, `suff` simplifies the process of building and configuring your APIs.
 
 ## Overview
 
-`epicjs` automates the setup of common backend components, so you can focus on developing your application instead of spending time on boilerplate code and configuration. With `epicjs`, you can choose your preferred language (TypeScript or JavaScript) and database (Mongoose or Prisma) during installation. The framework also provides a well-structured folder layout and integrates useful tools like `dotenv` for environment management and logging capabilities.
+`suff` automates the setup of common backend components, so you can focus on developing your application instead of spending time on boilerplate code and configuration. With `suff`, you can choose your preferred language (TypeScript or JavaScript) and database (Mongoose or Prisma) during installation. The framework also provides a well-structured folder layout and integrates useful tools like `dotenv` for environment management and logging capabilities.
 
 ## Features
 
@@ -16,7 +16,7 @@ Welcome to `epicjs` – a powerful and flexible framework designed to streamline
 
 ## Project Structure
 
-When you set up your project with `epicjs`, the following folder structure will be created:
+When you set up your project with `suff`, the following folder structure will be created:
 
 ```
 my-api-project/
@@ -33,14 +33,14 @@ my-api-project/
 
 ## Installation and Usage
 
-To get started with `epicjs`, follow these steps:
+To get started with `suff`, follow these steps:
 
 1. **Install the Framework:**
 
    Use `npx` to run the installation command:
 
    ```bash
-   npx create-epicjs-server
+   npx create-suff-server
    ```
 
    You'll be prompted to select your preferred language and database.
@@ -78,14 +78,14 @@ To get started with `epicjs`, follow these steps:
 
 - **Environment Configuration:**
   
-  `epicjs` uses environment variables specified in the `.env` file. The `NODE_ENV` variable determines if the application is running in development mode or production mode, affecting the setup of routes and other configurations.
+  `suff` uses environment variables specified in the `.env` file. The `NODE_ENV` variable determines if the application is running in development mode or production mode, affecting the setup of routes and other configurations.
 
 - **Commands:**
 
   The framework provides several commands to interact with your project:
   
-  - **`create-epicjs-server`**: Initializes a new `epicjs` project.
-  - **`epicjs`**: CLI tool with various commands:
+  - **`create-suff-server`**: Initializes a new `suff` project.
+  - **`suff`**: CLI tool with various commands:
     - `dev`: Starts the development server with `nodemon` for auto-reloading.
     - `build`: Builds the project for production.
     - `start`: Starts the project in production mode.
@@ -93,7 +93,7 @@ To get started with `epicjs`, follow these steps:
 
 ## Contributing
 
-We welcome contributions from the community! If you’d like to help improve `epicjs`, please follow these guidelines:
+We welcome contributions from the community! If you’d like to help improve `suff`, please follow these guidelines:
 
 - **Fork the Repository:** Create your own copy of the repository.
 - **Clone Your Fork:** Clone your fork to your local machine.
@@ -104,7 +104,7 @@ We welcome contributions from the community! If you’d like to help improve `ep
 
 ## License
 
-`epicjs` is open source and available under the [MIT License](LICENSE).
+`suff` is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
