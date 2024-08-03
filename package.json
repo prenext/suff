@@ -1,0 +1,32 @@
+{
+  "name": "epicjs",
+  "version": "0.1",
+  "description": "Welcome to `epicjs` - a powerful and flexible framework designed to streamline the creation of REST APIs with Node.js and Express. Whether you're a beginner looking for a quick setup or an experienced developer seeking a customizable solution, `api-js` simplifies the process of building and configuring your APIs.",
+  "main": "index.mjs",
+  "bin": {
+    "create-epicjs-server": "bin/init.mjs",
+    "epicjs": "bin/cli.mjs"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "inquirer": "^10.1.6",
+    "ora": "^8.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0",
+    "nodemon": "^2.0.0"
+  }
+}

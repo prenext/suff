@@ -20,7 +20,8 @@ When you set up your project with `api-js`, the following folder structure will 
 
 ```
 my-api-project/
-├── config/          # Configuration files (e.g., environment settings) 
+├── config/          # Configuration files (e.g., environment settings)
+├── controllers/     # Route controllers
 ├── models/          # Database models
 ├── routes/          # API routes
 ├── utils/           # Utility functions and helpers

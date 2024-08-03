@@ -1,0 +1,76 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.test
+
+# Build output
+dist/
+build/
+*.tgz
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# npm package-lock
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Local development files
+*.local
+
+# dotenv environment variables file
+.env.local
+
+# Next.js
+.next/
+
+# SvelteKit
+.svelte-kit/
+
+# Next.js static build output
+out/
+
+# Gatsby
+.cache/
+public/
+
+# Nuxt.js
+.nuxt/
+static/
+
+# Storybook
+storybook-static/
