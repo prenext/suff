@@ -1,6 +1,6 @@
 {
   "name": "suff",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Welcome to `suff` - a powerful and flexible framework designed to streamline the creation of REST APIs with Node.js and Express. Whether you're a beginner looking for a quick setup or an experienced developer seeking a customizable solution, `suff` simplifies the process of building and configuring your APIs.",
   "main": "index.mjs",
   "bin": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/prenext/suff"
+    "url": "git+https://github.com/prenext/suff"
   },
   "keywords": [
     "framework",
